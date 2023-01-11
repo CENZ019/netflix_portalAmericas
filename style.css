@@ -1,11 +1,12 @@
 body{
-
+  background: #141414;
 }
 .container-fluid{
   background: #141414;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap:2em;
+  grid-auto-rows: 50px 230px;
   margin-left:0; 
   height: 704px;
   margin-top: 0;
@@ -14,18 +15,17 @@ body{
 p{
      color: #ffffff;
      font-size: 15px;
-    /* visibility: hidden; */
+    visibility: hidden;
 }
 .banner{
   margin-top: 10px;
   margin-bottom: -70px;
   grid-column: 1/6;
-  height: 60px;
   
 }
 .titulo{
   color: #ffffff;
-  margin-top:-40px;
+  margin-top:-45px;
   margin-left: 230px;
 }
 .netflix{
@@ -33,19 +33,19 @@ p{
   width:11rem;
 }
 .card{
-    background: #141414;
+    background: #fff;
     border:0;
-    margin: 5px 0px 0px 20px;
-    height:250px;
+    margin: 0px 0px 0px 20px;
+    height:230px;
     width: 9.6rem;
 }
 span{
     color: #ffffff;
-    font-size: 50px;
+    font-size: 40px;
     font-weight:bolder;
     position: absolute;
-    top: 25%;
-    margin-left:-35px;     
+    top: 35%;
+    margin-left:-30px;     
 }
 .diez{
   margin-left: -50px;
