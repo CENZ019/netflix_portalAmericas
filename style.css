@@ -6,7 +6,7 @@ body{
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap:2em;
-  grid-auto-rows: 50px 230px;
+  grid-auto-rows: 70px 260px;
   margin-left:0; 
   height: 704px;
   margin-top: 0;
@@ -18,7 +18,7 @@ p{
     visibility: hidden;
 }
 .banner{
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: -70px;
   grid-column: 1/6;
   
@@ -45,7 +45,7 @@ span{
     font-weight:bolder;
     position: absolute;
     top: 35%;
-    margin-left:-30px;     
+    margin-left:-27px;     
 }
 .diez{
   margin-left: -50px;
